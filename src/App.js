@@ -1,10 +1,11 @@
-import Header from './components/Header'
+import Header from './page/Header'
+import Main from './page/Main'
 
 function App() {
   return (
     <div>
-      App aqui!
       <Header />
+      <Main />
     </div>
   );
 }
