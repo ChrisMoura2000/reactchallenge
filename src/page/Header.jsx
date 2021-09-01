@@ -1,10 +1,10 @@
-import React from "react";
-import NavBar from "../components/NavBar";
-import { Playbutton, ImageHeader } from "../images";
+import React from 'react';
+import NavBar from '../components/NavBar';
+import { Playbutton, ImageHeader } from '../images';
 
 export default function Header() {
   return (
-    <header className="head">
+    <header>
       <NavBar />
       <h2>Easily create or join a local nanny share with Hapu </h2>
       <span>
@@ -12,12 +12,12 @@ export default function Header() {
         create new flexible, affordable solutions in childcare.
       </span>
       <div>
-        <img src={Playbutton} alt="Playbutton" />
+        <img src={ Playbutton } alt="Playbutton" />
         <a href="#link" id="link">
           See hapu in action (27 seconds)
         </a>
       </div>
-      <img src={ImageHeader} alt="ImageHeader"/>
+      <img src={ ImageHeader } alt="ImageHeader" />
     </header>
   );
 }

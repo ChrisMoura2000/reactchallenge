@@ -1,5 +1,5 @@
-import React from "react";
-import { ImageSection4 } from "../images";
+import React from 'react';
+import { ImageSection4 } from '../images';
 
 export default function SectionFive() {
   return (
@@ -12,9 +12,9 @@ export default function SectionFive() {
         process, transparency over money and equality of participation.
       </p>
       <a href="#readyHapu" id="readyHapu">
-        Read how Hapu’s tribal background defines our app{" "}
+        Read how Hapu’s tribal background defines our app
       </a>
-      <img src={ImageSection4} alt="ImageSection4" />
+      <img src={ ImageSection4 } alt="ImageSection4" />
     </section>
   );
 }

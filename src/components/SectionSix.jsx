@@ -1,10 +1,10 @@
-import React from "react";
-import { ImageSection5 } from "../images";
+import React from 'react';
+import { ImageSection5 } from '../images';
 
 export default function SectionSix() {
   return (
     <section>
-      <img src={ImageSection5} alt="ImageSection5" />
+      <img src={ ImageSection5 } alt="ImageSection5" />
       <h2>Coming soon: Nanny Share Daily Diary!</h2>
       <p>
         With the Hapu daily diary your nanny will be able to update you and your
