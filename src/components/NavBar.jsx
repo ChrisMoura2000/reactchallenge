@@ -1,28 +1,29 @@
 import React from 'react';
 import { Badge } from '../images';
+import styles from '../styles/header.module.css';
 
 export default function NavBar() {
   return (
-    <div>
-      <img src={ Badge } alt="Badge" />
-      <ul>
-        <div>
+    <div className={ styles.allNavBar }>
+      <img src={ Badge } alt="Badge" className={ styles.imgBadge } />
+      <ul className={ styles.ulNavBar }>
+        <div className={ styles.dNone }>
           <li>
-            <h5>Create Your Nanny Share</h5>
+            Create Your Nanny Share
           </li>
           <li>
-            <h5>Browse Shares</h5>
+            Browse Shares
           </li>
           <li>
-            <h5>Our Story</h5>
+            Our Story
           </li>
         </div>
         <div>
-          <li>
-            <h5>Become a Nanny Share Host</h5>
+          <li className={ styles.becomeNannyNavBar }>
+            Become a Nanny Share Host
           </li>
-          <li>
-            <h5>Sign In</h5>
+          <li className={ styles.dNone }>
+            Sign In
           </li>
         </div>
       </ul>
