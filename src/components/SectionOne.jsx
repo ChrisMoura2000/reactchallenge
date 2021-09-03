@@ -1,10 +1,11 @@
 import React from 'react';
 import { ProfileImage } from '../images';
+import styles from '../styles/main.module.css';
 
 export default function SectionOne() {
   return (
-    <section>
-      <img src={ ProfileImage } alt="ProfileImage" />
+    <section className={ styles.firstSection }>
+      <img src={ ProfileImage } alt="ProfileImage" className={ styles.imgfirstSection } />
       <a href="#depoiment" id="depoiment">
         Sarah’s day care available now in North Sydney
       </a>

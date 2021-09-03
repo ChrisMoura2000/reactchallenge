@@ -5,10 +5,11 @@ import SectionThree from '../../components/SectionThree';
 import SectionFour from '../../components/SectionFour';
 import SectionFive from '../../components/SectionFive';
 import SectionSix from '../../components/SectionSix';
+import styles from '../../styles/main.module.css';
 
 export default function Main() {
   return (
-    <main>
+    <main className={ styles.allSections }>
       <SectionOne />
       <SectionTwo />
       <hr />

@@ -103,4 +103,7 @@
     color: #ffffff;
     padding: 10px;
   }
+  .dNone {
+    display: initial;
+  }
 }
