@@ -1,5 +1,5 @@
 .allSections {
-    background: #f2f2f2;
+  background: #f2f2f2;
 }
 
 .firstSection {
@@ -88,7 +88,7 @@
 
 .thirdSection button {
   /* The code below was based on the website: https://www.w3schools.com/css/css3_buttons.asp */
-    
+
   background-color: #00a870;
   border: none;
   border-radius: 4px;
@@ -102,65 +102,69 @@
 }
 
 .fourthSection {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    text-align: center;
-    
-    color: #3D3D3D;
-    padding: 0 16px;
-    line-height: 32px;
-    margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+
+  color: #3d3d3d;
+  padding: 0 16px;
+  line-height: 32px;
+  margin: 0;
 }
 
 .fourthSection img {
-    margin-bottom: 22px;
+  margin-bottom: 22px;
 }
 
 .fourthSection a {
-    color: #5E20A4
+  color: #5e20a4;
 }
 
 .fifthSection {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    text-align: center;
-    padding: 0 16px;
-    line-height: 32px;
-    margin: 0;
-    color: #3D3D3D;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  padding: 0 16px;
+  line-height: 32px;
+  margin: 0;
+  color: #3d3d3d;
 }
 
 .fifthSection h2 {
-    font-weight: 500;
-    font-size: 22px;
+  font-weight: 500;
+  font-size: 22px;
 }
 
 .fifthSection a {
-    color: #5E20A4;
-    margin-top: 16px;
+  color: #5e20a4;
+  margin-top: 16px;
 }
 
 .dNone {
-    display: none;
+  display: none;
 }
 
 .sixthSection {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    padding: 0 16px;
-    line-height: 32px;
-    color: #3D3D3D;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 0 16px;
+  line-height: 32px;
+  color: #3d3d3d;
 }
 
 .sixthSection h2 {
-    font-weight: 500;
-    font-size: 22px;
-    padding-top: 12px;
-    margin-bottom: 0;
+  font-weight: 500;
+  font-size: 22px;
+  padding-top: 12px;
+  margin-bottom: 0;
+}
+
+.sixthSection p {
+  margin-bottom: 64px;
 }
