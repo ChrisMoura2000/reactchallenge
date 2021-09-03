@@ -1,9 +1,10 @@
 import React from 'react';
 import { ImageSection4 } from '../images';
+import styles from '../styles/main.module.css';
 
 export default function SectionFive() {
   return (
-    <section>
+    <section className={ styles.fifthSection }>
       <h2>A framework built for the long term</h2>
       <p>
         Childcare is for the long term. And you need a framework you can count
