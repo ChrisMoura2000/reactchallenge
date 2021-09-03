@@ -15,7 +15,7 @@ export default function SectionFive() {
       <a href="#readyHapu" id="readyHapu">
         Read how Hapu’s tribal background defines our app
       </a>
-      <img src={ ImageSection4 } alt="ImageSection4" />
+      <img src={ ImageSection4 } alt="ImageSection4" className={ styles.dNone } />
     </section>
   );
 }
