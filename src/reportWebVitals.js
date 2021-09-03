@@ -1,6 +1,6 @@
 const webVitals = require('web-vitals');
 
-const reportWebVitals = (onPerfEntry) => {
+const reportWebVitals = ((onPerfEntry) => {
   if (onPerfEntry && onPerfEntry instanceof Function) {
     // import('web-vitals')
     webVitals.then(({ getCLS, getFID, getFCP, getLCP, getTTFB }) => {
@@ -11,6 +11,6 @@ const reportWebVitals = (onPerfEntry) => {
       getTTFB(onPerfEntry);
     });
   }
-};
+});
 
 export default reportWebVitals;

@@ -11,10 +11,43 @@
 
 .imgfirstSection {
     width: 8em;
-
 }
 
 .firstSection a {
     text-align: center;
     padding: 0 68px;
 }
+
+.secondSection{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background: #F2F2F2;
+    align-items: center;
+}
+
+.imgSecondSection {
+    padding: 0 1.5em;
+}
+
+.secondSection h2 {
+    text-align: center;
+    padding: 1em 3em 0.5em 3em;
+    color: #3D3D3D;
+}
+
+.secondSection p {
+    text-align: center;
+    padding: 0 1em;
+    color: #3D3D3D;
+    line-height: 2em;
+}
+
+.secondSection a {
+    color: #5E20A4;
+}
+
+.lineHr {
+    margin: 4em 0.8em;
+    border: 2px solid #DFDFDF;
+} 
