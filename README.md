@@ -2,10 +2,10 @@
 ### First, clone with command:
 `git clone git@github.com:ChrisMoura2000/reactchallenge.git` 
 
-### Install dependencies:
+### Enter the `/reactchallenge` folder and install dependencies:
 `npm install`
 
-### Enter the `/reactchallenge` folder and run:
+### To start app run:
 `npm start`
 
 ### To compile the application for production, run:
