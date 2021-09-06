@@ -1,20 +1,170 @@
+.allSections {
+  background: #f2f2f2;
+}
+
 .firstSection {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    height: 40vh;
-    align-items: center;
-    font-weight: 400;
-    margin: 2em 0 ;
-    background: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 40vh;
+  align-items: center;
+  font-weight: 400;
+  margin: 2em 0;
+  background: #ffffff;
 }
 
 .imgfirstSection {
-    width: 8em;
-
+  width: 8em;
 }
 
 .firstSection a {
-    text-align: center;
-    padding: 0 68px;
+  text-align: center;
+  padding: 0 68px;
+}
+
+.secondSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.imgSecondSection {
+  padding: 0 1.5em;
+}
+
+.secondSection h2 {
+  text-align: center;
+  padding: 1em 3em 0.5em 3em;
+  color: #3d3d3d;
+  font-weight: 500;
+  font-size: 22px;
+}
+
+.secondSection p {
+  text-align: center;
+  padding: 0 1em;
+  color: #3d3d3d;
+  line-height: 2em;
+}
+
+.secondSection a {
+  color: #5e20a4;
+}
+
+.lineHr {
+  margin: 4em 0.8em;
+  border: 1px solid #dfdfdf;
+}
+
+.thirdSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+
+  color: #3d3d3d;
+  padding: 0 16px;
+  text-align: center;
+  line-height: 32px;
+  margin: 0;
+}
+
+.thirdSection h3 {
+  margin-bottom: 16px;
+  font-weight: 500;
+  font-size: 22px;
+}
+
+.thirdSection input {
+  /* The code below was based on the website: https://www.w3schools.com/css/tryit.asp?filename=trycss_forms */
+  width: 100%;
+  padding: 16px 20px;
+  margin: 2px 0;
+  border: 1px solid #dfdfdf;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.thirdSection button {
+  /* The code below was based on the website: https://www.w3schools.com/css/css3_buttons.asp */
+
+  background-color: #00a870;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  padding: 15px 16px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  width: 100%;
+  margin-top: 4%;
+}
+
+.fourthSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+
+  color: #3d3d3d;
+  padding: 0 16px;
+  line-height: 32px;
+  margin: 0;
+}
+
+.fourthSection img {
+  margin-bottom: 22px;
+}
+
+.fourthSection a {
+  color: #5e20a4;
+}
+
+.fifthSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  padding: 0 16px;
+  line-height: 32px;
+  margin: 0;
+  color: #3d3d3d;
+}
+
+.fifthSection h2 {
+  font-weight: 500;
+  font-size: 22px;
+}
+
+.fifthSection a {
+  color: #5e20a4;
+  margin-top: 16px;
+}
+
+.dNone {
+  display: none;
+}
+
+.sixthSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 0 16px;
+  line-height: 32px;
+  color: #3d3d3d;
+}
+
+.sixthSection h2 {
+  font-weight: 500;
+  font-size: 22px;
+  padding-top: 12px;
+  margin-bottom: 0;
+}
+
+.sixthSection p {
+  margin-bottom: 64px;
 }

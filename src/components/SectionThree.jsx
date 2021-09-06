@@ -1,8 +1,9 @@
 import React from 'react';
+import styles from '../styles/main.module.css';
 
 export default function SectioThree() {
   return (
-    <section>
+    <section className={ styles.thirdSection }>
       <h3>Are you a parent without a nanny and looking to share?</h3>
       <p>
         {/* eslint-disable-next-line max-len */}

@@ -13,7 +13,7 @@
   font-weight: 400;
 }
 
-.playbutton{
+.playbutton {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -74,34 +74,33 @@
       linear-gradient(314.72deg, #c86dd7 -1.5%, #7e49c3 39.43%, #5912ac 86.02%);
   }
 
-  .all-nav-bar {
+  .allNavBar {
     display: flex;
-    border: 2px solid black;
   }
 
-  .ul-nav-bar {
+  .ulNavBar {
     display: flex;
-    /* justify-content: space-around; */
     list-style: none;
     margin: 0;
     padding: 0;
-    /* font-family: Inter; */
     font-style: normal;
     font-weight: 500;
     line-height: 20px;
   }
 
-  .ul-nav-bar div {
-    display: flex;
-    align-items: center;
-    /* justify-content: space-around; */
+  .ulNavBar {
+    width: 80%;
   }
 
-  .become-nanny-nav-bar {
+  .ulNavBar div {
+    display: flex;
+    align-items: center;
+  }
+
+  .becomeNannyNavBar {
     background: #00a870;
     border-radius: 4px;
     color: #ffffff;
-    padding: 10px;
   }
   .dNone {
     display: initial;

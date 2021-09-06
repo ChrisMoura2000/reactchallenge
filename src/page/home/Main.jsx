@@ -12,13 +12,13 @@ export default function Main() {
     <main className={ styles.allSections }>
       <SectionOne />
       <SectionTwo />
-      <hr />
+      <hr className={ styles.lineHr } />
       <SectionThree />
-      <hr />
+      <hr className={ styles.lineHr } />
       <SectionFour />
-      <hr />
+      <hr className={ styles.lineHr } />
       <SectionFive />
-      <hr />
+      <hr className={ styles.lineHr } />
       <SectionSix />
     </main>
   );

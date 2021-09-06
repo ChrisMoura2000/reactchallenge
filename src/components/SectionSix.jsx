@@ -1,9 +1,10 @@
 import React from 'react';
 import { ImageSection5 } from '../images';
+import styles from '../styles/main.module.css';
 
 export default function SectionSix() {
   return (
-    <section>
+    <section className={ styles.sixthSection }>
       <img src={ ImageSection5 } alt="ImageSection5" />
       <h2>Coming soon: Nanny Share Daily Diary!</h2>
       <p>
